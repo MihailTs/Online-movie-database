@@ -1,0 +1,38 @@
+.form {
+  width: 40vw;
+  height: 40vh;
+  border: var(--border-radius) solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 400px;
+  & .emailInput {
+    justify-self: center;
+    width: 90%;
+  }
+  & .passInput {
+    justify-self: center;
+    width: 90%;
+  }
+}
+  
+.button {
+  width: 50%;
+  justify-self: center;
+  box-sizing: border-box; 
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  border-color: var(--secondary-color);
+  transition: border-color 0.2s ease;
+}
+  
+.errorMessage {
+  margin: 0;
+  color: var(--accent-color);
+  text-align: center;
+  font-size: medium;
+}

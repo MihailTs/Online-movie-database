@@ -1,0 +1,68 @@
+.header {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 1px solid var(--primary-color);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: var(--lightgrey-100);
+  padding: 4px 8px;
+  padding-bottom: 0;
+}
+  
+.title {
+  justify-self: start;
+  font-size: xx-large;
+  color: var(--secondary-color);
+}
+
+.themeSelector {
+  font-size: smaller;
+  align-items: center;
+  justify-items: center;
+}
+  
+.userSection {
+  display: flex;
+  justify-self: end;
+  flex-direction: row;
+  font-size: 1.5vw;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end; 
+  width: 100%;
+  & .logButton {
+    width: 9vw;
+    height: 50%;
+    white-space: nowrap;
+    font-size: large;
+    align-self: center;
+    justify-self: end;
+    padding: 10px;
+    overflow: hidden;
+  }
+  & .signUpButton {
+    width: 10vw;
+    height: 50%;
+    white-space: nowrap;
+    font-size: large;
+    align-self: center;
+    justify-self: end;
+    padding: 10px;
+    overflow: hidden;
+  }
+  & .username {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-shadow: 
+      -1px -1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black,
+      1px 1px 0 black;
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

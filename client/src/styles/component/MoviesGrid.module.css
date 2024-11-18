@@ -1,0 +1,13 @@
+.movieGrid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  gap: 20px;
+  padding: 0;
+  margin: 5px;
+  gap: 5px;
+}
+
+.movieCard:hover {
+  border: 10px solid black;
+  transform: translateY(-3px);
+}

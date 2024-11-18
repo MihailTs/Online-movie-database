@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+  
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+  
+Input,
+textarea,
+select {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+  
+textarea {
+  resize: vertical;
+}
+  
+select {
+  padding: 5px;
+}
+  
+.submitButton {
+  margin-top: 10px;
+  font-size: large;
+}
+
+.genreCheckBoxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px 0px 20px 0px;
+}

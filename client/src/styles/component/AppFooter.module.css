@@ -1,0 +1,9 @@
+footer {
+  font-size: 12px;
+  color: var(--secondary-color);
+  position: relative;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

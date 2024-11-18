@@ -1,0 +1,27 @@
+.checkboxInput {
+  display: none;
+  border: 2px solid var(--background-color);
+}
+  
+.customCheckbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: medium;
+  margin: 10px;
+  margin-left: 10px;
+  padding-left: 30px;
+}
+  
+.checkboxSpanCustom {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 3px;
+  border: 2px solid var(--inverse-color);
+  border-radius: var(--border-radius);
+}
+
+.customCheckbox:hover .checkboxCustom {
+  border-color: var(--primary-color);
+}

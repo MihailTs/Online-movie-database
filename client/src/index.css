@@ -1,0 +1,31 @@
+body {
+  --border-radius: 3px;
+  
+  --primary-color: #4ee667;
+  --secondary-color: #bc14ff;
+  --accent-color: #F44336;
+  --border-color: white;
+  --dark-backgound: rgb(19, 6, 69);
+  --light-background: rgb(244, 244, 236);
+
+  --lightgrey-100: rgba(102, 126, 150, 0.496);
+  
+  margin: 0;
+  background-color: var(--primary-background-color);
+  
+  color: var(--text-color);  
+}
+  
+body.light {
+  --text-color: black;
+  --primary-background-color: var(--light-background);
+  --inverse-color: var(--dark-backgound);
+  --border-color: black;
+}
+  
+body.dark {
+  --text-color: white;
+  --primary-background-color: var(--dark-backgound);
+  --inverse-color: var(--light-background);
+  --border-color: white;
+}  

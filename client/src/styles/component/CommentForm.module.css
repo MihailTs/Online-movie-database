@@ -1,0 +1,51 @@
+.commentForm {
+  width: 95%;
+  justify-self: center;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.commentText {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+.textLabel {
+    margin-top: 10px;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+  
+.star {
+  font-size: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: gray;
+}
+
+.star:hover {
+  color: goldenrod;
+}
+  
+.activeStar {
+  color: gold;
+}
+
+.submit {
+  justify-self: end;
+}

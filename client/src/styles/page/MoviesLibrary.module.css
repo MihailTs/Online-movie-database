@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+.title {
+  margin-top: 2px;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(6, 97, 11);
+  text-decoration: underline;
+}
+
+.movieOptions {
+  display: grid;
+  grid-template-columns: 1fr 15% 1fr;
+  grid-template-rows: 20%;
+  margin-top: 5px;
+  align-items: center;
+  & .layoutButton {
+    width: 20%; 
+    justify-self: start;
+    font-size: large;
+    margin-left: 2%;
+  }
+  & .searchContainer {
+    justify-self: end;
+    align-items: center;
+    margin-right: 2%;
+  }
+  & .pageNavigation {
+    display: grid;
+    grid-template-columns: 1fr 10% 1fr;
+    align-items: center; 
+    width: 100%;
+    & .prevButton {
+      justify-self: start;
+    }
+    & .nextButton {
+      justify-self: end;
+    }
+    & p {
+      justify-self: center;
+      color: var(--primary-color);
+    }
+  }
+}

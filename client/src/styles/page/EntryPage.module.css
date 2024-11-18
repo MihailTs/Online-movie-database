@@ -1,0 +1,43 @@
+.pageTitle {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 50px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: xx-large;
+  text-shadow: 
+      -1px -1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black,
+      1px 1px 0 black;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.menu a {
+  padding: 15px 30px;
+  margin: 10px 0;
+  font-size: x-large;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: var(--inverse-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  width: 40%;
+}
+
+.menu a:hover {
+  transform: translateY(-3px);
+}

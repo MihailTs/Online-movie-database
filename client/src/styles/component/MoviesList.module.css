@@ -1,0 +1,54 @@
+.listWithPoster {
+  border-top: 1px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+  position: relative;
+}
+
+.movieList {
+  width: 100%;
+  padding: 0;
+  margin: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.movieList li {
+  margin-bottom: 10px;
+}
+
+.movieCard {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: var(--border-color);
+  padding-bottom: 3px;
+  padding-left: 500px;
+  padding-right: 5px;
+  margin: 0 auto;
+}
+
+.movieCard:hover {
+  border: 2px solid var(--primary-color);
+}
+
+.hoveredPosterContainer {
+  position: fixed;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.hoveredPoster {
+  width: 60%;
+  height: 60%;
+  margin: 20px 10% 20px 20%;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
