@@ -8,35 +8,35 @@ export const config = convict({
         nullable: true,
         format: String,
         default: 'localhost',
-        env: 'ASTEA_SCHOOL_DB_HOST'
+        env: 'DB_HOST'
       },
       port: {
         doc: 'The database port',
         format: 'port',
         nullable: true,
         default: 5432,
-        env: 'ASTEA_SCHOOL_DB_PORT'
+        env: 'DB_PORT'
       },
       name: {
         doc: 'The name of the database',
         format: String,
         nullable: true,
         default: 'Movies',
-        env: 'ASTEA_SCHOOL_DB_NAME'
+        env: 'DB_NAME'
       },
       user: {
         doc: 'The database user',
         format: String,
         nullable: true,
         default: undefined,
-        env: 'ASTEA_SCHOOL_DB_USER'
+        env: 'DB_USER'
       },
       password: {
         doc: 'The database password',
         format: String,
         nullable: true,
         default: undefined,
-        env: 'ASTEA_SCHOOL_DB_PASS'
+        env: 'DB_PASS'
       }
     },
     jwtSecret: {
@@ -44,6 +44,6 @@ export const config = convict({
       nullable: false,
       format: String,
       default: '',
-      env: 'ASTEA_SCHOOL_JWT_KEY'
+      env: 'JWT_KEY'
     }  
 }).validate()

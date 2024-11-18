@@ -6,7 +6,7 @@
     "start": "ts-node src/index.ts",
     "knex": "knex"
   },
-  "author": "mtsvetkov@asteasolutions.com",
+  "author": "mihail.tsvetkov.04@gmail.com",
   "license": "ISC",
   "description": "",
   "devDependencies": {
